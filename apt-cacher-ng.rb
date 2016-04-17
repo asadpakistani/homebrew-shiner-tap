@@ -3,10 +3,10 @@ class AptCacherNg < Formula
   homepage "https://www.unix-ag.uni-kl.de/~bloch/acng/"
   url "https://mirrors.ocf.berkeley.edu/debian/pool/main/a/apt-cacher-ng/apt-cacher-ng_0.9.1.orig.tar.xz"
   mirror "https://mirrorservice.org/sites/ftp.debian.org/debian/pool/main/a/apt-cacher-ng/apt-cacher-ng_0.9.1.orig.tar.xz"
-  sha256 "24994beac6ce1c51f97ce66f49ea68cac9e30a0162c5c0ae8a36bcb8ed34c8b4"
+  sha256 "54d9667d9baea76d6977b1962b27cdb7dff68e0772ecdd15cd6dfd0774435cfa"
 
   bottle do
-    sha256 "24994beac6ce1c51f97ce66f49ea68cac9e30a0162c5c0ae8a36bcb8ed34c8b4" => :mavericks
+    sha256 "54d9667d9baea76d6977b1962b27cdb7dff68e0772ecdd15cd6dfd0774435cfa" => :mavericks
   end
 
   depends_on "pkg-config" => :build
